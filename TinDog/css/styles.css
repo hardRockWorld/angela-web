@@ -97,7 +97,6 @@ p {
 /* testimonial section */
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: white;
@@ -108,6 +107,13 @@ p {
     width: 20%;
     border-radius: 100%;
     margin: 20px;
+}
+
+/* carousel section */
+/* why this is needed? -> in order to keep our next and previous buttons outside our slider  */
+
+.carousel-item {
+  padding: 7% 15%;
 }
 
 /* press section */
