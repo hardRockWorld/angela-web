@@ -91,7 +91,7 @@ p {
 
 .icon:hover {
     color: #ff4c68;
-    
+
 }
 
 /* testimonial section */
@@ -116,4 +116,9 @@ p {
     background-color: #ef8172;
     text-align: center;
     padding-bottom: 2rem;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
