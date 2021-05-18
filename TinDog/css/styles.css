@@ -30,9 +30,19 @@ p {
   padding: 7% 15%;
 }
 
+/* sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
 /* features section */
 #features {
-  background-color: #fff;
   position: relative;
 }
 
@@ -78,14 +88,9 @@ p {
 
 /* title section */
 
-#title {
-  background-color: #ff4c68;
-  color: white;
-  text-align: left;
-}
-
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 /* Download Buttons */
@@ -110,7 +115,6 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  color: white;
   font-family: "Montserrat";
 }
 
@@ -162,11 +166,6 @@ p {
 }
 
 /* call to action section - (CTA) */
-
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-}
 
 
 /* footer section */
