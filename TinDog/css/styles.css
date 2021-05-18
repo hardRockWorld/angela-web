@@ -1,44 +1,47 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
-h1 {
-  font-family: "Montserrat-Black", "sans-serif";
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: bold;
-}
-
-h2 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3 {
-  font-family: "Montserrat-Bold";
-  font-size: 2rem;
-  font-weight: bold;
 }
 
 p {
   color: #8f8f8f;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: white;
+/* all headings */
+
+.big-heading {
+  font-family: "Montserrat-Black", "sans-serif";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
 }
 
 /* features section */
 #features {
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
 
+.feature-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
@@ -51,10 +54,6 @@ p {
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
-}
-
-.container-fluid {
-  padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -75,6 +74,18 @@ p {
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-light";
+}
+
+/* title section */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 /* Download Buttons */
@@ -98,10 +109,14 @@ p {
 /* testimonial section */
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: white;
   font-family: "Montserrat";
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -113,15 +128,11 @@ p {
 /* carousel section */
 /* why this is needed? -> in order to keep our next and previous buttons outside our slider  */
 
-.carousel-item {
-  padding: 7% 15%;
-}
 
 /* press section */
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 2rem;
 }
 
@@ -134,11 +145,20 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+.card-heading {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /* call to action section - (CTA) */
@@ -146,23 +166,10 @@ p {
 #cta {
   background-color: #ff4c68;
   color: #fff;
-  padding: 7% 15%;
-  text-align: center;
-}
-
-.cta-heading {
-  font-family: "Montserrat-Black";
-  font-size: 3.5rem;
-  line-height: 1.5;
 }
 
 
 /* footer section */
-
-#footer {
-  padding: 7% 15%;
-  text-align: center;
-}
 
 .social-icon {
   margin: 20px 10px;
