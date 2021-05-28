@@ -8,3 +8,7 @@ This is a very good exercise for beginners who want to learn modern JavaScript u
           in that function.
         - What that means is if you create a variable with , that variable is “scoped” to the function it was created in and is
           only accessible inside of that function or, any nested functions
+
+-> see the example code in function_local_scope_1.js file.
+(fix) :
+        -> see the code for function_local_scope_1_fix.js file.
