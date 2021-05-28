@@ -4,7 +4,7 @@ function getDate() {
   var date = new Date();
 
   function formatDate() {
-    return date.toDateString().slice(4);
+    return date.toDateString().slice(4);    // "toDateString()" function is used to convert date to string format and slice it upto 4 characters only
   }
 
   return formatDate();
