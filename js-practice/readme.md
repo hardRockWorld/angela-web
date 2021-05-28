@@ -17,3 +17,8 @@ This is a very good exercise for beginners who want to learn modern JavaScript u
 
 
         . function_inside_function.js file: check this code for learning more about scope when the scenario is of function inside a function.
+
+        for Block scope:
+
+
+            - check out the example of 'array operation' for prices and discounted price which takes in prices and the rate of the discount and return an array of discounted prices.
