@@ -14,3 +14,6 @@ This is a very good exercise for beginners who want to learn modern JavaScript u
 -> see the example code in function_local_scope_1.js file.
 (fix) :
         -> see the code for function_local_scope_1_fix.js file.
+
+
+        . function_inside_function.js file: check this code for learning more about scope when the scenario is of function inside a function.
