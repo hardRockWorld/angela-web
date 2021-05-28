@@ -21,4 +21,4 @@ This is a very good exercise for beginners who want to learn modern JavaScript u
         for Block scope:
 
 
-            - check out the example of 'array operation' for prices and discounted price which takes in prices and the rate of the discount and return an array of discounted prices.
+            - check out the example of 'array operation' for prices and discounted price which takes in prices and the rate of the discount and return an array of discounted prices. check out the file: array_for_price_discount.js file
