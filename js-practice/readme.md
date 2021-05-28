@@ -20,5 +20,7 @@ This is a very good exercise for beginners who want to learn modern JavaScript u
 
         for Block scope:
 
-
-            - check out the example of 'array operation' for prices and discounted price which takes in prices and the rate of the discount and return an array of discounted prices. check out the file: array_for_price_discount.js file
+            - check out the example of 'array operation' for prices and discounted price which takes in prices and the rate of the discount and return an array of  
+              discounted prices. check out the file: array_for_price_discount.js file
+            - variables declared using the "var" keyword has => function scope. that is why in the program array_for_price_discount.js file -> you can access the 'i'     
+              variable outside of the for loop as well.
